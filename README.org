@@ -1,4 +1,4 @@
-* TODO
+* TODO Lista di cose da fare
 Scrivere la descrizione del progetto e altre cose ecc.
 * File structure
 Il progetto è basato di una cartella src/ dove sono scritti gli script e testati, c'è poi un'altra cartella, WindowsExe, con all'interno i file da scaricare per eseguirlo su windows
