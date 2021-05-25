@@ -9,8 +9,14 @@
 
     TODO
     Trasformare gli asteroidi in poligoni e farli ruotare,
+    Forme strane e non poligoni?
     Cambiare palette,
     Implementare game over, punteggio, leaderboard, menu, multiplayer, ecc.
+    Implementare settings, tra cui toggle fullscreen
+    Power Ups?
+    Navicelle, Shop?
+    Web o android?
+    Cambiare il movimento, accelerazione?
 ]]
 
 -- Classes creation
@@ -51,7 +57,8 @@ end
 function love.load()
     -- Tutte queste variabili sono globali e possono venire accesse
     -- da qualunque parte del codice
-    player = Entity:new(Vec2:new(200,100),Vec2:new(0,0))
+    local winw,winh = love.graphics.getDimensions()
+    player = Entity:new(Vec2:new(winw / 2,winh / 2),Vec2:new(0,0))
     player.size = Vec2:new(10,10)
     SPEED = 400 -- Il modulo del vettore velocità
     angle = 0   -- L'angolo di partenza del giocatore, servirà per farlo girare con il mouse

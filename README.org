@@ -1,4 +1,13 @@
 * TODO Lista di cose da fare
-Scrivere la descrizione del progetto e altre cose ecc.
+- Scrivere la descrizione del progetto
+- Trasformare gli asteroidi in poligoni o forme starne e farli ruotare
+- Cambiare palette
+- Implementare game over, punteggio, leaderboard, menu, multiplayer
+- Implementare settings, tra cui toggle fullscreen
+** Altre cose da fare dopo
+- Power ups?
+- Navicelle, Shop?
+- Portare su web o android?
+- Modificare il sistema di movimeto?
 * File structure
 Il progetto è basato di una cartella src/ dove sono scritti gli script e testati, c'è poi un'altra cartella, WindowsExe, con all'interno i file da scaricare per eseguirlo su windows. Per eseguirlo su windows scaricare tutti i file nella cartella WindowsExe e eseguire il file AsteroidsWithLove2d.exe (cliccare due volte in documenti il file)
